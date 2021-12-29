@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas con el <CounterApp /> debe de incrementar el valor del boton -1 : 102 1`] = `"101"`;
+
+exports[`Pruebas con el <CounterApp /> debe de mostrar <CounterApp /> correctamente  1`] = `
+<Fragment>
+  <h1>
+    CounterApp
+  </h1>
+  <h2>
+    100
+  </h2>
+  <button
+    onClick={[Function]}
+  >
+    +1
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    -1
+  </button>
+</Fragment>
+`;
+
+exports[`Pruebas con el <CounterApp /> debe de mostrar el valor por defecto 100 : 100 1`] = `"100"`;
